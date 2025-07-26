@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    color: #212529;
+}
+
+h1,h2,h3,h4,h5,p{
+    font-family: "Noto Sans TC";
+    line-height: 120%;
+    font-weight: 700;
+    color: #212529;
+    letter-spacing: 5%;
+    
+}
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+h5{
+    font-size: 20px;
+    color: #57A203;
+}
+
+h6{
+    font-size: 16px;
+}
+
+p{
+    display: inline-block;
+    line-height: 150%;
+    font-weight: 400;
+}
+a{
+    font-family: "Noto Sans TC";
+    line-height: 150%;
+    font-weight: 500;
+    letter-spacing: 5%;
+    color: #57A203;
+    text-decoration:none;
+
+}
+
+ul{
+   list-style: none;
+   display: inline-block;
+   margin-left: 4px;
+
+}
+
+li{
+    margin-bottom: 4px;
+}
+
+img{
+    width: 100%;
+}
+
+/* container */
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1076px;
+}
+
+.content{
+    max-width: 856px;
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+/* header */
+.hero{
+    background-image: url(../Img/Hero\ from\ Week\ 1.png);
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1,.hero h3{
+    color: #F5FEE7;
+}
+/* section */
+.section-01{
+    margin-bottom: 48px;
+}
+.section-01 .content{
+    width: 100%;
+    background-color: #F5FEE7;
+    margin:0 auto;
+    text-align: center;
+    padding: 32px;
+}
+.section-01 .content h5{
+    margin-bottom: 12px;
+}
+.section-01 .content h6{
+    line-height: 150%;
+}
+
+/* about */
+.about{
+    margin-top: 24px;
+}
+
+.title{
+    margin-bottom: 24px;
+}
+
+.subtitle{
+    margin-bottom: 16px;
+
+}
+
+/* section */
+.content-list ul{
+    list-style: disc inside;
+ }
+
+.content-list,.idea-list li{
+    margin-bottom: 12px;
+}
+.story-list li{
+    padding: 8px 0;
+}
+
+.line{
+    margin-left: 8px;
+    padding-right: 8px;
+    border-left:1px solid #212529;
+}
+
+.line-gray{
+    border-left: 3px solid #DEE2E6;
+    margin-right:8px;
+}
+
+.bt-line{
+    background-color: #DEE2E6;
+    display:inline-block;
+    width:100%;
+    height:2px;
+    margin: 48px 0;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    color: #57A203;
+
+  }
+
+.link{
+    color: #57A203;
+    line-height: 150%;
+    border-bottom: 1px solid #57A203;
+
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 64px 0;
+    background-color: #F8F9FA;
+}
+
+.footer p{
+    color: #6C757D;
+
+}
